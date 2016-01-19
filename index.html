@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="site.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.js"></script>
+    <script src="script.js"></script>
+</head>
+<body ng-app="app">
+
+<div class="col-1 raw-1">
+    <div class="col-1 raw-12 header">
+        <div class="col-12 raw-1 vkIcon"></div>
+        <div class="col-2 raw-1">
+            <div class="col-1 raw-1 activeButtonGroup">
+                <div class="activeButton backward"></div>
+                <div class="activeButton play"></div>
+                <div class="activeButton forward"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-1 raw-1 stretchedContainer">
+        <div class="col-6 stretchedItem menu">
+            <div class="raw-1 col-1">
+                <ul class="col-1 raw-1 menu">
+                    <li class="col-1 menuItem"><i class="fa fa-user"></i>&nbsp; Profile</li>
+                    <li class="col-1 menuItem commentContainer" >
+                        <a class="col-1 raw-1 link" href="#/message"><i class="fa fa-envelope-o"></i>&nbsp;
+                            <label>Messages<i class="messageGreenCount">+1</i> </label></a>
+                    </li>
+                    <li class="col-1 menuItem"><i class="fa fa-newspaper-o"></i>&nbsp; News</li>
+                    <li class="col-1 menuItem"><i class="fa fa-users"></i>&nbsp; Friends</li>
+                    <li class="col-1 menuItem"><i class="fa fa-picture-o"></i>&nbsp; Photos</li>
+                    <li class="col-1 menuItem"><i class="fa fa-video-camera"></i>&nbsp; Videos</li>
+                    <li class="col-1 menuItem"><i class="fa fa-music"></i>&nbsp; Music</li>
+                    <li class="col-1 menuItem"><i class="fa fa-arrow-circle-o-left"></i>&nbsp; Communities</li>
+                    <li class="col-1 menuItem"><i class="fa fa-comment-o"></i>&nbsp; Feedback</li>
+                    <li class="col-1 menuItem"><i class="fa fa-bookmark"></i>&nbsp; Bookmarks</li>
+                    <li class="col-1 menuItem"><i class="fa fa-star-o"></i>&nbsp; Applications</li>
+                    <li class="col-1 menuItem"><i class="fa fa-file-o"></i>&nbsp; Documents</li>
+                </ul>
+            </div>
+        </div>
+        <div ng-view class="col-1">
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

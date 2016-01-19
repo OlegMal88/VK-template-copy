@@ -1,0 +1,342 @@
+.menu {
+    position: relative;
+    display: inline-block;
+    background: rgb(58, 75, 93);
+
+}
+
+.menuItem {
+    float: left;
+    cursor: pointer;
+    line-height: 100%;
+    text-align: left;
+    font: 1.1em "Gautami";
+    transition: background .4s ease-in-out, color .4s ease-in-out;
+    -webkit-transition: background .4s ease-in-out, color .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out, color .4s ease-in-out;
+    -o-transition: background .4s ease-in-out, color .4s ease-in-out;
+    background: rgb(58, 75, 93);
+    color: rgb(115, 128, 145);
+
+}
+
+.menuItem:hover {
+    background: rgb(50, 64, 77);
+    color: rgb(246, 248, 247);
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(115, 128, 145);
+    transition: color .4s ease-in-out;
+}
+.link:hover{
+    color: rgb(246, 248, 247);
+}
+
+.header {
+    background: rgb(79, 113, 150);
+}
+
+.vkIcon {
+    background: url(img/vk.png) center no-repeat;
+    vertical-align: middle;
+}
+
+.activeButtonGroup {
+
+    vertical-align: middle;
+    padding-left: 20px;
+}
+
+.avatarImg {
+    position: absolute;
+    left: 26%;
+    top: 15%;
+}
+
+.avatarLogotype {
+    position: absolute;
+    font-weight: bold;
+    vertical-align: middle;
+    color: rgb(10, 10, 10);
+}
+
+.primaryBtn {
+    background: rgb(79, 113, 150);
+    color: rgb(246, 248, 247);
+    text-align: center;
+    border-radius: 17px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0px 5px 0px;
+}
+
+input[type=button]:focus {
+    outline: none;
+}
+
+.secondaryBtn {
+    background: rgb(246, 248, 247);
+    color: rgb(168, 178, 187);
+    border: 1px solid rgb(168, 178, 187);
+    text-align: center;
+    border-radius: 17px;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0px 5px 0px;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+
+.formLayout {
+    width: 100%;
+    padding-left: 10%;
+    overflow: auto;
+}
+
+br {
+    clear: left;
+}
+
+.primaryLabel {
+    text-align: left;
+    float: left;
+
+    color: rgb(79, 113, 150);
+}
+
+.secondaryLabel {
+    text-align: left;
+    float: left;
+    color: rgb(168, 178, 187);
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 10px solid rgb(244, 244, 242);
+    color: rgb(168, 178, 187);
+}
+
+.avatar.bigSize {
+    width: 150px;
+    height: 150px;
+}
+
+.avatar.small {
+    width: 50px;
+    height: 50px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lion {
+    background: url(./img/lion.jpg) no-repeat center;
+}
+
+.grass {
+    background: url(./img/grass.jpg) no-repeat center;
+}
+
+.mount {
+    background: url(./img/mount.jpg) no-repeat center;
+}
+
+.people {
+    background: url(./img/people.jpg) no-repeat center;
+}
+
+.sun {
+    background: url(./img/sun.jpg) no-repeat center;
+}
+
+.crystal-1 {
+    background: url(./img/photoSection/crystal-1.jpg) no-repeat center;
+}
+
+.crystal-2 {
+    background: url(./img/photoSection/crystal-2.jpg) no-repeat center;
+}
+
+.crystal-3 {
+    background: url(./img/photoSection/crystal-3.jpg) no-repeat center;
+}
+
+.pain-lion {
+    background: url(./img/photoSection/pain-lion.jpg) no-repeat center;
+}
+
+.avatarLogo {
+    color: rgb(0, 0, 0);
+    line-height: 100%;
+    text-align: center;
+    font: 1.5em "Gautami";
+}
+
+.friendsLogo {
+    color: rgb(168, 178, 187);
+    line-height: 100%;
+    text-align: center;
+    font: 1.1em "Gautami";
+}
+
+.count {
+    font: 0.9em "Gautami";
+    color: rgb(185, 185, 185);
+}
+
+.rightBottomBorder {
+    border-bottom: 1px solid rgb(185, 185, 185);
+    border-right: 1px solid rgb(185, 185, 185);
+}
+
+.bottomBorder {
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.rightBorder {
+    border-right: 1px solid rgb(185, 185, 185);
+}
+
+.blockContainer {
+    display: block;
+    text-align: center;
+}
+
+.ownerComment {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Gautami";
+    padding-top: 25px;
+    color: black;
+}
+
+.commentTime {
+    text-align: right;
+    font: 0.9em "Gautami";
+    padding-top: 25px;
+    color: rgb(185, 185, 185);
+}
+
+.commentContainer {
+    position: relative;
+}
+
+.commentItem {
+    margin: 0px;
+    overflow: auto;
+    position: absolute;
+
+}
+
+.iconContainer {
+    padding-top: 1.5%;
+    color: rgb(79, 113, 150);
+    text-align: right;
+}
+
+.iconItem {
+    color: rgb(79, 113, 150);
+    margin: 0px;
+    overflow: auto;
+
+}
+
+.stretchedContainer {
+    float: none;
+    display: table-row;
+}
+
+.noFloating {
+    float: none;
+}
+
+.stretchedItem {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.stretchedItem.menu {
+    background: rgb(58, 75, 93);
+}
+
+.communityContainer {
+    position: relative;
+    top: 14px;
+    left: 14px;
+}
+
+.communityItem {
+    display: block;
+    position: absolute;
+}
+
+.messageCount {
+    color: rgb(61, 183, 62);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.messageGreenCount {
+    position: absolute;
+    display: inline;
+    clear: both;
+    margin: -16px 0px 0px 5px;
+    top: 50%;
+    background: rgb(61, 183, 62);
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    font-style: normal;
+    color: white;
+}
+
+.messageGreenCountWithoutPosition {
+
+    background: rgb(61, 183, 62);
+    width: 27px;
+    height: 18px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 14px;
+    font-style: normal;
+    color: white;
+}
+
+.messageScreenMessageContainer:hover{
+
+    background: rgb(239,242,247);
+}
+
+.messageScreenMessageContainer{
+    border-bottom:1px solid rgb(232,232,230);
+    background: rgb(255,255,255);
+    -webkit-transition: background .4s ease-in-out;
+    -moz-transition: background .4s ease-in-out;
+    -ms-transition: background .4s ease-in-out;
+    -o-transition: background .4s ease-in-out;
+    transition: background .4s ease-in-out;
+}
+
+.messageScreenMessageLogo{
+    color: #000;
+    font-weight: bold;
+}
+
