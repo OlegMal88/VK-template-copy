@@ -14,7 +14,7 @@ div,ul,li {
     float: left;
 }
 .minContainerWidth{
-  min-width: 290px;
+  min-width: 310px;
 }
 
 .minScreenResolution{
