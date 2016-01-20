@@ -459,3 +459,12 @@ br {
     border-width: 6px 4px 0 4px;
     border-color: rgb(207, 207, 207) transparent transparent transparent;
 }
+
+.messageSection{
+    position: absolute;
+    top: 68px ;
+    bottom: 68px;
+    background: rgb(245,246,248);
+
+}
+
