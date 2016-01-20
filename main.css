@@ -13,8 +13,6 @@ div,ul,li {
     padding: 0;
     float: left;
 }
-
-<<<<<<< HEAD
 .minContainerWidth{
   min-width: 290px;
 }
@@ -23,9 +21,6 @@ div,ul,li {
     min-height: 768px;
     min-width:1360px;
 }
-=======
->>>>>>> gh-pages
-
 .col-12 {
 
     width: 8.3333%;
