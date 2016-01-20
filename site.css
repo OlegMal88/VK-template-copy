@@ -71,23 +71,32 @@
     width: 180px;
     height: 40px;
     line-height: 40px;
+    outline: none;
+    border:none;
     margin: 5px 0px 5px 0px;
 }
 
 input[type=button]:focus {
     outline: none;
 }
+input[type=button]:active{
+    outline: none;
+    border:none;
+}
 
 .secondaryBtn {
-    background: rgb(246, 248, 247);
+    background: rgb(255, 255, 255);
     color: rgb(168, 178, 187);
     border: 1px solid rgb(168, 178, 187);
     text-align: center;
     border-radius: 17px;
     width: 180px;
     height: 40px;
-    line-height: 40px;
     margin: 5px 0px 5px 0px;
+}
+
+.secondaryBtn.blueBorder{
+    border: 1px solid rgb(79, 113, 150);
 }
 
 .btnGroup {
@@ -122,19 +131,21 @@ br {
 }
 
 .avatar {
-    border-radius: 50%;
-    border: 10px solid rgb(244, 244, 242);
-    color: rgb(168, 178, 187);
+     color: rgb(168, 178, 187);
 }
 
 .avatar.bigSize {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+    border: 10px solid rgb(241, 243, 240);
 }
 
 .avatar.small {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
+    border: 4px solid rgb(241, 243, 240);
 }
 
 .flexContainer {
@@ -272,6 +283,7 @@ br {
 
 .stretchedItem.menu {
     background: rgb(58, 75, 93);
+
 }
 
 .communityContainer {
@@ -297,15 +309,16 @@ br {
     display: inline;
     clear: both;
     margin: -16px 0px 0px 5px;
-    top: 50%;
+    top: 75%;
     background: rgb(61, 183, 62);
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     text-align: center;
     font-size: 12px;
-    border-radius: 50%;
+    border-radius: 10px;
     font-style: normal;
     color: white;
+    line-height: 26px;
 }
 
 .messageGreenCountWithoutPosition {
@@ -339,4 +352,18 @@ br {
     color: #000;
     font-weight: bold;
 }
+
+.avatarContainer{
+    padding: 29px 0px 0px 0px;
+}
+
+.additionalRight {
+    padding-right:31px;
+}
+
+.iconPadding{
+    padding:21px 0px 0px 15px ;
+}
+
+
 
