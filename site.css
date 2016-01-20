@@ -250,6 +250,11 @@ br {
     color: rgb(185, 185, 185);
 }
 
+.commentTime.padding{
+    box-sizing: border-box;
+    padding-right:15px;
+}
+
 .commentContainer {
     position: relative;
 }
